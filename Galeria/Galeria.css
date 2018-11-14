@@ -1,0 +1,126 @@
+/* ***** Import CSS ***** */
+
+@import 'css/bootstrap/bootstrap.min.css';
+@import 'css/otros/animate.css';
+@import 'css/otros/owl.carousel.min.css';
+
+
+.galeria-slide
+{
+    position: relative;
+    z-index: 1;
+    overflow: hidden
+}
+.galeria-slide .titulo a > h5
+{
+    font-family: 'Raleway', sans-serif;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 30;
+}
+
+.galeria-slide .titulo
+{
+    position: absolute;
+    content: "";
+    bottom: -300px;
+    left: 0;
+    z-index: 3;
+    background-color: #CE9630;
+    padding: 30px;
+    width: 100%;
+    height: auto;
+    -webkit-transition-duration: 750ms;
+    transition-duration: 750ms;
+}
+.galeria-slide:hover .titulo
+{
+    bottom: 0;
+}
+
+.galeria-slide .post-descripcion a
+{
+    font-family: 'Parisienne', cursive;
+    font-size: 32px;
+    font-weight: 400;
+    color: #fff;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 0px;
+}
+
+.galeria-slide .post-descripcion a:hover
+{
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.galeria-slide .post-descripcion a:first-child
+{
+    margin-right: 30px;
+}
+
+.galeria-slide .post-descripcion a:first-child:after
+{
+    width: 2px;
+    height: 80%;
+    content: '';
+    position: absolute;
+    top: 10%;
+    right: -14px;
+    z-index: 2;
+    background-color: #fff;
+}
+
+
+.welcome-post-sliders
+{
+    position: relative;
+    z-index: 1;
+}
+
+.welcome-post-sliders .owl-prev
+{
+    position: absolute;
+    width: 10%;
+    background-color: transparent;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 9;
+}
+
+.welcome-post-sliders .owl-next
+{
+    position: absolute;
+    width: 10%;
+    background-color: transparent;
+    height: 100%;
+    top: 0;
+    right: 0;
+}
+.fonts
+{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Parisienne', cursive;
+}
+
+h1, h2 {
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    font-family: 'Parisienne', cursive ;
+    color: #CE9630;
+
+}
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: #1E2843;
+
+}
+p {
+    font-family: 'Raleway', sans-serif;
+}
